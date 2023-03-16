@@ -12,9 +12,9 @@ gem "matrix"
 
 group :development do
   gem "apparition", github: "twalpole/apparition" # LOCKED: When this is released, use a released version https://github.com/twalpole/apparition/pull/79
-  gem "aruba", "~> 1.0"
-  gem "capybara", "~> 3.31"
-  gem "cucumber", "~> 4.0"
+  gem "aruba", "~> 1.1", ">= 1.1.2"
+  gem "capybara", "~> 3.35", ">= 3.35.3"
+  gem "cucumber", "~> 4.1", ">= 4.1.0"
   gem "minitest"
   gem "rake", "~> 13.0"
   gem "rspec", "~> 3.2"
