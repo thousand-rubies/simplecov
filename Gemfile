@@ -19,7 +19,7 @@ group :development do
   gem "rake", "~> 13.0"
   gem "rspec", "~> 3.2"
   gem "pry"
-  gem "rubocop"
+  gem "rubocop", ">= 1.66.0"
   gem "test-unit"
   # Explicitly add webrick because it has been removed from stdlib in Ruby 3.0
   gem "webrick"
